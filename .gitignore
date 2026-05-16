@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+env/
+venv/
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Outputs — exclude everything inside, but keep the folder via .gitkeep
+outputs/
+!outputs/.gitkeep
+
+# Large trajectory/topology files anywhere in the project
+*.xtc
+*.tpr
+*.gro
+*.trr
+*.edr
+*.cpt
+*.ndx
+
+# Zip archives
+*.zip
+*.tar.gz
+*.gz
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Logs
+*.log
